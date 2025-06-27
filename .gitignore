@@ -1,0 +1,25 @@
+# .gitignore
+
+# Virtual env
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Env secrets
+.env
+
+# Local ChromaDB files
+data/chroma_db/
+data/chroma.sqlite3
+
+# RL feedback JSON
+data/rl_feedback.json
+
+# Screenshots (optional)
+data/screenshots/
+
+# Drafts & raw (optional, keep only if you want)
+data/drafts/
+data/raw/
